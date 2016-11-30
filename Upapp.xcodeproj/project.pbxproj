@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECAD67871DEEB033007A8058 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAD67861DEEB033007A8058 /* AppDelegate.m */; };
+		ECAD678A1DEEB033007A8058 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAD67891DEEB033007A8058 /* main.m */; };
+		ECAD678D1DEEB033007A8058 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAD678C1DEEB033007A8058 /* ViewController.m */; };
+		ECAD67901DEEB033007A8058 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAD678F1DEEB033007A8058 /* Document.m */; };
+		ECAD67921DEEB033007A8058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAD67911DEEB033007A8058 /* Assets.xcassets */; };
+		ECAD67951DEEB033007A8058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAD67931DEEB033007A8058 /* Main.storyboard */; };
+		ECAD67A01DEEB034007A8058 /* UpappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAD679F1DEEB034007A8058 /* UpappTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECAD679C1DEEB034007A8058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECAD677A1DEEB033007A8058 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECAD67811DEEB033007A8058;
+			remoteInfo = Upapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECAD67821DEEB033007A8058 /* Upapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Upapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAD67851DEEB033007A8058 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECAD67861DEEB033007A8058 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECAD67891DEEB033007A8058 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECAD678B1DEEB033007A8058 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECAD678C1DEEB033007A8058 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECAD678E1DEEB033007A8058 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		ECAD678F1DEEB033007A8058 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		ECAD67911DEEB033007A8058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECAD67941DEEB033007A8058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECAD67961DEEB033007A8058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAD679B1DEEB034007A8058 /* UpappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAD679F1DEEB034007A8058 /* UpappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpappTests.m; sourceTree = "<group>"; };
+		ECAD67A11DEEB034007A8058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECAD677F1DEEB033007A8058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAD67981DEEB034007A8058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECAD67791DEEB033007A8058 = {
+			isa = PBXGroup;
+			children = (
+				ECAD67841DEEB033007A8058 /* Upapp */,
+				ECAD679E1DEEB034007A8058 /* UpappTests */,
+				ECAD67831DEEB033007A8058 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECAD67831DEEB033007A8058 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD67821DEEB033007A8058 /* Upapp.app */,
+				ECAD679B1DEEB034007A8058 /* UpappTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECAD67841DEEB033007A8058 /* Upapp */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD67851DEEB033007A8058 /* AppDelegate.h */,
+				ECAD67861DEEB033007A8058 /* AppDelegate.m */,
+				ECAD678B1DEEB033007A8058 /* ViewController.h */,
+				ECAD678C1DEEB033007A8058 /* ViewController.m */,
+				ECAD678E1DEEB033007A8058 /* Document.h */,
+				ECAD678F1DEEB033007A8058 /* Document.m */,
+				ECAD67911DEEB033007A8058 /* Assets.xcassets */,
+				ECAD67931DEEB033007A8058 /* Main.storyboard */,
+				ECAD67961DEEB033007A8058 /* Info.plist */,
+				ECAD67881DEEB033007A8058 /* Supporting Files */,
+			);
+			path = Upapp;
+			sourceTree = "<group>";
+		};
+		ECAD67881DEEB033007A8058 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD67891DEEB033007A8058 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECAD679E1DEEB034007A8058 /* UpappTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD679F1DEEB034007A8058 /* UpappTests.m */,
+				ECAD67A11DEEB034007A8058 /* Info.plist */,
+			);
+			path = UpappTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECAD67811DEEB033007A8058 /* Upapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAD67A41DEEB034007A8058 /* Build configuration list for PBXNativeTarget "Upapp" */;
+			buildPhases = (
+				ECAD677E1DEEB033007A8058 /* Sources */,
+				ECAD677F1DEEB033007A8058 /* Frameworks */,
+				ECAD67801DEEB033007A8058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Upapp;
+			productName = Upapp;
+			productReference = ECAD67821DEEB033007A8058 /* Upapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECAD679A1DEEB034007A8058 /* UpappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAD67A71DEEB034007A8058 /* Build configuration list for PBXNativeTarget "UpappTests" */;
+			buildPhases = (
+				ECAD67971DEEB034007A8058 /* Sources */,
+				ECAD67981DEEB034007A8058 /* Frameworks */,
+				ECAD67991DEEB034007A8058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECAD679D1DEEB034007A8058 /* PBXTargetDependency */,
+			);
+			name = UpappTests;
+			productName = UpappTests;
+			productReference = ECAD679B1DEEB034007A8058 /* UpappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECAD677A1DEEB033007A8058 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = pactera;
+				TargetAttributes = {
+					ECAD67811DEEB033007A8058 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					ECAD679A1DEEB034007A8058 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECAD67811DEEB033007A8058;
+					};
+				};
+			};
+			buildConfigurationList = ECAD677D1DEEB033007A8058 /* Build configuration list for PBXProject "Upapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECAD67791DEEB033007A8058;
+			productRefGroup = ECAD67831DEEB033007A8058 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECAD67811DEEB033007A8058 /* Upapp */,
+				ECAD679A1DEEB034007A8058 /* UpappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECAD67801DEEB033007A8058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAD67921DEEB033007A8058 /* Assets.xcassets in Resources */,
+				ECAD67951DEEB033007A8058 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAD67991DEEB034007A8058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECAD677E1DEEB033007A8058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAD67901DEEB033007A8058 /* Document.m in Sources */,
+				ECAD678D1DEEB033007A8058 /* ViewController.m in Sources */,
+				ECAD678A1DEEB033007A8058 /* main.m in Sources */,
+				ECAD67871DEEB033007A8058 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAD67971DEEB034007A8058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAD67A01DEEB034007A8058 /* UpappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECAD679D1DEEB034007A8058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECAD67811DEEB033007A8058 /* Upapp */;
+			targetProxy = ECAD679C1DEEB034007A8058 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECAD67931DEEB033007A8058 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECAD67941DEEB033007A8058 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECAD67A21DEEB034007A8058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ECAD67A31DEEB034007A8058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ECAD67A51DEEB034007A8058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Upapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pactera.www.Upapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECAD67A61DEEB034007A8058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Upapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pactera.www.Upapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECAD67A81DEEB034007A8058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UpappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pactera.www.UpappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Upapp.app/Contents/MacOS/Upapp";
+			};
+			name = Debug;
+		};
+		ECAD67A91DEEB034007A8058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UpappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pactera.www.UpappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Upapp.app/Contents/MacOS/Upapp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECAD677D1DEEB033007A8058 /* Build configuration list for PBXProject "Upapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAD67A21DEEB034007A8058 /* Debug */,
+				ECAD67A31DEEB034007A8058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAD67A41DEEB034007A8058 /* Build configuration list for PBXNativeTarget "Upapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAD67A51DEEB034007A8058 /* Debug */,
+				ECAD67A61DEEB034007A8058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECAD67A71DEEB034007A8058 /* Build configuration list for PBXNativeTarget "UpappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAD67A81DEEB034007A8058 /* Debug */,
+				ECAD67A91DEEB034007A8058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECAD677A1DEEB033007A8058 /* Project object */;
+}
